@@ -79,7 +79,10 @@ Antes de comprar hardware:
 
 Locais que já têm repetidora dedicada operando na rede SC Mesh:
 
-- **Morro dos Muller — Antônio Carlos** — cobre boa parte da Grande Florianópolis norte.
+- **Morro dos Muller — Antônio Carlos**
+- **Morro do Cachorro - Blumenau**
+- **Trombudo Central**
+- **Videira**
 
 *Esta lista cresce conforme a comunidade formaliza cada nó. Se o seu nó fixo atende a rede, nos avise para incluirmos aqui.*
 
