@@ -83,6 +83,7 @@ Locais que já têm repetidora dedicada operando na rede SC Mesh:
 - **Morro do Cachorro - Blumenau**
 - **Trombudo Central**
 - **Videira**
+- **Boa Vista - Joinville**
 
 *Esta lista cresce conforme a comunidade formaliza cada nó. Se o seu nó fixo atende a rede, nos avise para incluirmos aqui.*
 
