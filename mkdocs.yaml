@@ -27,6 +27,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - Buscar nodeId: busca-node.md
   - Blog: blog/index.md
   - Primeiros Passos: primeiros-passos.md
   - Hardware: hardware.md
@@ -52,3 +53,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
