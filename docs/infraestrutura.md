@@ -84,6 +84,7 @@ Locais que já têm repetidora dedicada operando na rede SC Mesh:
 - **Trombudo Central**
 - **Videira**
 - **Boa Vista - Joinville**
+- **Morro das Antenas - Jaraguá do Sul**
 
 *Esta lista cresce conforme a comunidade formaliza cada nó. Se o seu nó fixo atende a rede, nos avise para incluirmos aqui.*
 
