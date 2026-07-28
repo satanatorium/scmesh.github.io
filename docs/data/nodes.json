@@ -16,5 +16,29 @@
         "longName": "Repetidora Morro dos Muller",
         "shortName": "RPML",
         "cidade": "Antônio Carlos"
+    },
+    {
+        "nodeId": "!bd50443c",
+        "longName": "PU5GYO Móvel 🚙🏃",
+        "shortName": "GYO",
+        "cidade": "Jaraguá do Sul"
+    },
+    {
+        "nodeId": "!f6bc103f",
+        "longName": "PU5GYO - Base 🏠",
+        "shortName": "GYOb",
+        "cidade": "Jaraguá do Sul"
+    },
+    {
+        "nodeId": "!0f97569c",
+        "longName": "REP: JARAGUA DO SUL",
+        "shortName": "JGS",
+        "cidade": "Jaraguá do Sul"
+    },
+    {
+        "nodeId": "!48468533",
+        "longName": "PP5AU Adriano",
+        "shortName": "ADRI",
+        "cidade": "Itajaí"
     }
 ]
