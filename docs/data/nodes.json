@@ -40,5 +40,35 @@
         "longName": "PP5AU Adriano",
         "shortName": "ADRI",
         "cidade": "Itajaí"
+    },
+    {
+        "nodeId": "10c4:ea60",
+        "longName": "PU5ERS Escritorio",
+        "shortName": "d084",
+        "cidade": "Jaraguá do Sul"
+    },
+    {
+        "nodeId": "!7a87eb6f",
+        "longName": "NVT - Fabrício Móvel 2",
+        "shortName": "GER2",
+        "cidade": "Navegantes"
+    },
+    {
+        "nodeId": "!49b70fdc",
+        "longName": "NVT - Fabrício Móvel 1",
+        "shortName": "GER1",
+        "cidade": "Navegantes"
+    },
+    {
+        "nodeId": "463861872",
+        "longName": "ARA G. Mohr",
+        "shortName": "Mohr",
+        "cidade": "Araranguá"
+    },
+    {
+        "nodeId": "!08ac8bc8",
+        "longName": "NVT - Fabrício Base",
+        "shortName": "🏡",
+        "cidade": "Navegantes"
     }
 ]
