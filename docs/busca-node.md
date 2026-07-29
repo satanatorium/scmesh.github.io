@@ -39,27 +39,29 @@ Consulte os dados publicados de um nó Meshtastic pelo seu `nodeId`.
     const formatKey = (key) => key.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[_-]+/g, ' ').replace(/^./, (character) => character.toUpperCase());
     const displayValue = (value) => value === null || value === undefined ? '—' : typeof value === 'object' ? JSON.stringify(value) : String(value);
 
-    const showNode = (node) => {
+    const showNode = (nodes) => {
       result.replaceChildren();
-      const title = document.createElement('h2');
-      title.textContent = node.nodeId || node.id || 'Nó encontrado';
-      result.appendChild(title);
-      const details = document.createElement('dl');
-      Object.entries(node).forEach(([key, value]) => {
-        const term = document.createElement('dt');
-        term.textContent = formatKey(key);
-        const description = document.createElement('dd');
-        description.textContent = displayValue(value);
-        details.append(term, description);
-      });
-      result.appendChild(details);
-      result.hidden = false;
+      nodes.forEach((node) => {
+        const title = document.createElement('h2');
+        title.textContent = node.nodeId || node.id || 'Nó encontrado';
+        result.appendChild(title);
+        const details = document.createElement('dl');
+        Object.entries(node).forEach(([key, value]) => {
+          const term = document.createElement('dt');
+          term.textContent = formatKey(key);
+          const description = document.createElement('dd');
+          description.textContent = displayValue(value);
+          details.append(term, description);
+        });
+        result.appendChild(details);
+        result.hidden = false;s
+      })
     };
 
     const findNode = (data, nodeId) => {
-      if (Array.isArray(data)) return data.find((node) => String(node?.nodeId ?? node?.id ?? '').trim().toLowerCase() === nodeId);
+      if (Array.isArray(data)) return data.filter((node) => String(node?.nodeId ?? node?.id ?? '').trim().includes(nodeId));
       if (data && typeof data === 'object') {
-        const key = Object.keys(data).find((item) => item.trim().toLowerCase() === nodeId);
+        const key = Object.keys(data).filter((item) => item.trim().toLowerCase().includes(nodeId));
         if (key) return typeof data[key] === 'object' ? { nodeId: key, ...data[key] } : { nodeId: key, value: data[key] };
       }
       return undefined;
