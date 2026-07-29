@@ -82,6 +82,7 @@ Consulte os dados publicados de um nó Meshtastic pelo seu `nodeId`.
         showNode(node);
       } catch (error) {
         status.textContent = 'Não foi possível carregar os dados dos nós. Tente novamente mais tarde.';
+        console.log(error);
       }
     });
   })();
