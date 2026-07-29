@@ -54,7 +54,7 @@ Consulte os dados publicados de um nó Meshtastic pelo seu `nodeId`.
           details.append(term, description);
         });
         result.appendChild(details);
-        result.hidden = false;s
+        result.hidden = false;
       })
     };
 
