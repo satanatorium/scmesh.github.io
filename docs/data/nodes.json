@@ -88,5 +88,35 @@
         "longName": "ARA G. Mohr",
         "shortName": "Mohr",
         "cidade": "Araranguá"
+    },
+    {
+        "nodeId": "2501787833",
+        "longName": "RPT-Futura",
+        "shortName": "3644",
+        "cidade": "Blumenau"
+    },
+    {
+        "nodeId": "!13085c64",
+        "longName": "LSahm - Base - PU5AAE",
+        "shortName": "LS01",
+        "cidade": "Blumenau"
+    },
+    {
+        "nodeId": "!04329c28",
+        "longName": "BNU-Vila Germanica",
+        "shortName": "9c28",
+        "cidade": "Blumenau"
+    },
+    {
+        "nodeId": "!1ba3bdb0",
+        "longName": "M-Martins",
+        "shortName": "🚗",
+        "cidade": "Indaial"
+    },
+    {
+        "nodeId": "!43b7c0ec",
+        "longName": "QG-Martins",
+        "shortName": "📡",
+        "cidade": "Indaial"
     }
 ]
