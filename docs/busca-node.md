@@ -77,7 +77,7 @@ Consulte os dados publicados de um nó Meshtastic pelo seu `nodeId`.
         const response = await fetch('../data/nodes.json', { cache: 'no-cache' });
         if (!response.ok) throw new Error('data unavailable');
         const node = findNode(await response.json(), nodeId);
-        if (!node) { status.textContent = 'Nenhum nó encontrado para "' + input.value.trim() + '".'; return; }
+        if (node.length <= 0) { status.textContent = 'Nenhum nó encontrado para "' + input.value.trim() + '".'; return; }
         status.textContent = 'Nó encontrado.';
         showNode(node);
       } catch (error) {
