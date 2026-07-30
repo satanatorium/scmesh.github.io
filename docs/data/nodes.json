@@ -70,5 +70,23 @@
         "longName": "NVT - Fabrício Base",
         "shortName": "🏡",
         "cidade": "Navegantes"
+    },
+    {
+        "nodeId": "!0265695b",
+        "longName": "Simas PU5DPK",
+        "shortName": "DPK",
+        "cidade": "Itajaí"
+    },
+    {
+        "nodeId": "!c9de8e29",
+        "longName": "LSahm - Móvel - PU5AAE",
+        "shortName": "LS02",
+        "cidade": "Blumenau"
+    },
+    {
+        "nodeId": "f870",
+        "longName": "ARA G. Mohr",
+        "shortName": "Mohr",
+        "cidade": "Araranguá"
     }
 ]
