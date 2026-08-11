@@ -1,4 +1,4 @@
-# Regras de etiqueta para a Rede MeshCore
+# Regras de etiqueta para a Rede Mesh
 A etiqueta no contexto da rede SC-Mesh é o conjunto de boas práticas adotadas para garantir que o serviço permaneça utilizável por todos. Isso envolve transmitir apenas o essencial, configurar seu dispositivo para economizar tempo de uso da frequência e ajudar a comunidade da maneira que for possível. Esses princípios não são novidade — eles derivam de décadas de tradição da cultura do rádio e se aplicam a qualquer rede descentralizada e compartilhada, como o Meshtastic ou as tecnologias que ainda estão por vir.
 
 As diretrizes abaixo dividem-se em três pilares: como transmitir, como conviver e como contribuir. Não se tratam de leis absolutas, mas sim de um consenso criado por aqueles que mantêm a rede operante.
