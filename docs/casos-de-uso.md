@@ -50,17 +50,7 @@ Santa Catarina tem histórico de enchentes no Vale do Itajaí e deslizamentos na
 - Radioamadores da RENER prestaram apoio oficial em diversos trechos.
 - Voluntários informais coordenaram abrigos e resgates por grupos de WhatsApp — que também cairam quando a internet falhou.
 
-A SC Mesh busca preencher esse vão: comunicação **local**, **sem infra**, **resistente a apagão**. Veja [Protocolos de Emergência](emergencia.md) para o protocolo completo.
-
-## 🏠 Vizinhança organizada
-
-Bairros com histórico de furto ou ocorrências de rotina têm montado canais privados para alerta rápido:
-
-- Avisar avistamento suspeito sem postar em grupo de WhatsApp aberto.
-- Ligar sensores de portão a um nó central que repassa aviso.
-- Sincronizar ronda comunitária.
-
-Importante: **não é substituto de 190** — é primeira camada de coordenação entre vizinhos.
+A SC Mesh busca preencher esse vão: comunicação **local**, **sem infra**, **resistente a apagão**.
 
 ## 🎓 Educação e experimentação
 
