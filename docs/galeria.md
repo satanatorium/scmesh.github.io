@@ -41,7 +41,17 @@ Modelo:
 
 ## ☀️ Sistemas solares
 
-*Em construção. Seja o primeiro a contribuir.*
+### Florianópolis - Sinalizador Náutico Solar
+
+* **Operador:** Carlos M.
+* **Hardware:** Seeed Xiao nRF52850+Wio SX1262, Antena 5dBi, sensor BH1750, circuito TP4056+bateria 18650 e painel solar.
+* **Role:** CLIENT
+* **Custo:** R$188 (dispositivo e sinalizador) + R$100 (outros materiais que eu já possuía)
+* **Aprendizado:** Pelo dimensionamento (baixo) dos paineis, ele precisa ter no mínimo 4 horas de exposição solar direta diária para manter a bateria com o Xiao em modo de economia de energia. Visada é tudo para um node com baixa potência como esse.
+
+Eu tinha visto o [projeto de um node no instructables](https://www.instructables.com/Meshtastic-Solar-Buoy/) reusando um sinalizador náutico. Ele vem vedado contra todos os elementos e é difícil de abrir, mas dentro traz três painéis solares ligados em série (5v) e uma bateria 18650 com terminais soldados. [Montei o meu](https://www.reddit.com/r/meshtastic/comments/1wjzb1v/so_i_made_that_solar_beacon_node/) fazendo uns ajustes no circuito de carregamento e usando um sensor de luminosidade, além de algumas impressões para fixação e vedação.
+
+![Imagem com vista do setup](img/galeria/sinalizador-nautico/01.jpeg)
 
 ## 🥾 Setups portáteis
 
