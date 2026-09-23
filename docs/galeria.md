@@ -33,7 +33,21 @@ Modelo:
 
 ## 🏠 Setups domésticos
 
-*Em construção. Seja o primeiro a contribuir.*
+### Florianópolis - Mini node Frankenstein ("Frankenodinho")
+
+* **Operador:** Carlos M.
+* **Hardware:** Seeed Xiao ESP32S3+Wio SX1262, Antena 5dBi, sensor BMP280, bateria 18650.
+* **Role:** CLIENT_BASE
+* **Custo:** R$80 (node) + R$5 (placa fenolite ilhada) + R$??? (fiação e parafusos reusados)
+* **Aprendizado:** O Xiao ESP32S3 tem um carregador de bateria integrado e ele é muito devagar; melhor usar um TP4056 no projeto. Melhor também usar um estojo pronto para a bateria.
+
+Inspirado no [Franken-Mesh](https://github.com/atoughram/Franken-Mesh/) , construí esse projeto dimensionado para uma placa de fenolite perfurada de 10x15cm, para deixar ligado em casa. O Xiao ESP32S3 tem uma boa especificação no microcontrolador mas a potência do rádio deixa a desejar.
+
+![Conjunto montado em placa perfurada](img/galeria/mini-frankenode/01.jpeg)
+
+![Estojo do node](img/galeria/mini-frankenode/02.jpeg)
+
+![Node montado no estojo](img/galeria/mini-frankenode/03.jpeg)
 
 ## 🏔️ Repetidoras em ponto alto
 
